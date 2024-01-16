@@ -57,10 +57,6 @@ public class DriveTrain extends SubsystemBase {
   private static double deltaZ;
 
   private static double rInput;
-  private static boolean isMecanum = false;
-
-  private static DoubleSolenoid butterFlySolenoid = null;
-  private static Compressor phCompressor = null;
 
   private static boolean brakeBooleanToggle = false;
 
